@@ -12,7 +12,7 @@
                             <div class="logo d-none">
                                 <a href="{{ url('/') }}"><img src="{{ asset('assets/common/images/logo.png') }}" alt="Logo"></a>
                             </div>
-                            <div class="tgmenu__navbar-wrap tgmenu__main-menu d-none d-xl-flex">
+                            <div class="tgmenu__navbar-wrap tgmenu__main-menu d-none d-xl-flex justify-content-end">
                                 <ul class="navigation">
                                     <li class="active"><a href="{{ url('/') }}">Home</a></li>
                                     <li><a href="{{ url('/products') }}">Products</a></li>
