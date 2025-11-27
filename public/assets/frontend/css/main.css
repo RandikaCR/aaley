@@ -38,9 +38,12 @@
 /*  01. Theme Default CSS
 ==============================================*/
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&amp;family=Roboto:ital,wght@0,100..900;1,100..900&amp;display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Anek+Tamil:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
 :root {
-  --tg-body-font-family: 'Roboto', sans-serif;
-  --tg-heading-font-family: 'Oswald', sans-serif;
+  --tg-body-font-family: 'Source+Sans+3', sans-serif;
+  --tg-heading-font-family: 'Anek+Tamil', sans-serif;
   --tg-icon-font-family: "Font Awesome 5 Free";
   --tg-body-font-size: 16px;
   --tg-body-line-height: 1.62;
@@ -54,7 +57,9 @@
   --tg-color-yellow-light-2: #FFE600;
   --tg-color-orange-light: #FF3D00;
   --tg-color-brown-light: #C9504A;
-  --tg-color-white-default: #ffffff;
+    --tg-color-white-default: #ffffff;
+    --tg-text-primary: #86491c;
+    --tg-text-secondary: #5d2d19;
   --tg-color-gray-1: #F9F4F1;
   --tg-color-gray-2: #F5F5F5;
   --tg-color-dark: #1A1A1A;
@@ -147,7 +152,6 @@ h6 {
   margin-top: 0px;
   font-weight: var(--tg-fw-medium);
   line-height: var(--tg-heading-line-height);
-  text-transform: uppercase;
 }
 
 h1 a,
@@ -463,7 +467,7 @@ textarea {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: var(--tg-heading-color);
+  background: var(--tg-text-secondary);
   color: var(--tg-color-white-default);
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -519,7 +523,7 @@ textarea {
   color: var(--tg-heading-color);
 }
 .tg-btn.red-btn:hover {
-  background: var(--tg-heading-color);
+  background: var(--tg-text-secondary);
 }
 
 .tg-btn-two {
@@ -991,7 +995,6 @@ textarea {
 ===============================*/
 .section__title .sub-title {
   letter-spacing: 0.1em;
-  text-transform: uppercase;
   display: block;
   font-size: 15px;
   font-weight: 700;
@@ -1001,7 +1004,6 @@ textarea {
 .section__title .title {
   font-size: 50px;
   margin-bottom: 0;
-  text-transform: uppercase;
 }
 @media (max-width: 1199.98px) {
   .section__title .title {
@@ -1139,6 +1141,20 @@ textarea {
   .section-pb-100 {
     padding-bottom: 60px;
   }
+}
+
+.section-pt-60 {
+    padding-top: 60px;
+}
+@media (max-width: 991.98px) {
+    .section-pt-60 {
+        padding-top: 40px;
+    }
+}
+@media (max-width: 767.98px) {
+    .section-pt-60 {
+        padding-top: 40px;
+    }
 }
 
 .section-bg {
@@ -2192,7 +2208,6 @@ textarea {
 .tg-header__top-content p {
   margin-bottom: 0;
   color: var(--tg-color-white-default);
-  text-transform: uppercase;
   font-size: 14px;
   line-height: 1.2;
 }
@@ -2713,7 +2728,6 @@ textarea {
   font-weight: 700;
   font-size: 15px;
   letter-spacing: 0.1em;
-  text-transform: uppercase;
   display: block;
   margin-bottom: 35px;
 }
@@ -2726,8 +2740,8 @@ textarea {
   margin-bottom: 45px;
   color: var(--tg-color-white-default);
   letter-spacing: 0.02em;
-  text-transform: uppercase;
   font-size: 80px;
+    font-weight: 600;
 }
 @media (max-width: 1199.98px) {
   .slider__content .title {
@@ -2831,7 +2845,6 @@ textarea {
 .slider__video-wrap .content p {
   margin-bottom: 0;
   color: var(--tg-color-white-default);
-  text-transform: uppercase;
   font-weight: 700;
 }
 .slider__social-wrap {
@@ -2863,9 +2876,8 @@ textarea {
 }
 .slider__social-wrap .title {
   margin-bottom: 0;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 14px;
-  text-transform: uppercase;
   position: relative;
   color: var(--tg-color-white-default);
   writing-mode: vertical-rl;
@@ -3027,7 +3039,6 @@ textarea {
 .banner__content-two .sub-title {
   font-size: 15px;
   letter-spacing: 0.1em;
-  text-transform: uppercase;
   font-weight: 700;
   color: var(--tg-theme-primary);
   display: block;
@@ -7904,7 +7915,6 @@ blockquote cite {
   display: block;
   font-size: 1.5rem;
   font-weight: 700;
-  text-transform: uppercase;
   padding-bottom: 0.75rem;
   margin-bottom: 0.75rem;
   border-bottom: 1px solid #ebebeb;

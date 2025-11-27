@@ -11,4 +11,14 @@ class FrontendController extends Controller
     {
         return view('frontend.index');
     }
+
+    public function aboutUs(Request $request)
+    {
+        return view('frontend.about-us');
+    }
+
+    public function contactUs(Request $request)
+    {
+        return view('frontend.contact-us');
+    }
 }
