@@ -18,6 +18,8 @@
 <link rel="stylesheet" href="{{ asset('assets/frontend/css/tg-cursor.css') }}">
 <link rel="stylesheet" href="{{ asset('assets/frontend/css/main.css') }}">
 
+<link href="{{ asset('assets/common/libs/sweetalert2/sweetalert2.min.css') }}" rel="stylesheet" type="text/css" />
+
 @yield('css')
 
 <style type="text/css">
@@ -56,18 +58,24 @@
     }
 
     @-webkit-keyframes moverBottomRight {
-        0% { transform: translateY(-5px); }
+        /*0% { transform: translateY(-5px); }
         25% { transform: rotate(2deg); }
         50% { transform: rotate(4deg); }
         75% { transform: rotate(6deg); }
-        100% { transform: translateY(0); }
+        100% { transform: translateY(0); }*/
+        0% { transform: translateY(0); }
+        50% { transform: rotate(2deg); }
+        100% { transform: translateY(-4px); }
     }
     @keyframes moverBottomRight {
-        0% { transform: translateY(-5px); }
+        /*0% { transform: translateY(-5px); }
         25% { transform: rotate(2deg); }
         50% { transform: rotate(4deg); }
         75% { transform: rotate(6deg); }
-        100% { transform: translateY(0); }
+        100% { transform: translateY(0); }*/
+        0% { transform: translateY(0); }
+        50% { transform: rotate(2deg); }
+        100% { transform: translateY(-4px); }
     }
 
     .element-to-zoom {
@@ -79,6 +87,8 @@
         transform-origin: center center;
     }
 
-
+    .slider__bg{
+        background-image: linear-gradient(to left, #E7BD90 , #F7EBD3) !important;
+    }
 
 </style>

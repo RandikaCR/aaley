@@ -135,7 +135,6 @@
                 </li>
             </ul>
         </div>
-        <div class="section__shape" data-background="{{ asset('assets/frontend/img/slider/slider_shape.svg') }}"></div>
     </section>
     <!-- slider-area-end -->
 
@@ -180,6 +179,7 @@
                             <h2 class="title al-theme-text-primary">Ceylon Cinnamon Quills</h2>
                         </div>
                         <p>Hand-rolled with precision, preserving the signature aroma and golden hue of true Ceylon cinnamon.</p>
+                        <h2 class="price mb-5 al-theme-text-primary">{{ 'LKR. ' . number_format(5000, 2) }}</h2>
                         {{--<div class="about__list-two">
                             <div class="about__list-item">
                                 <div class="icon">
@@ -255,6 +255,7 @@
                             <h2 class="title al-theme-text-primary">Ceylon Cinnamon Powder</h2>
                         </div>
                         <p>Finely ground to perfection — ideal for both gourmet creations and everyday wellness.</p>
+                        <h2 class="price mb-5 al-theme-text-primary">{{ 'LKR. ' . number_format(5000, 2) }}</h2>
                         <div class="about__btn">
                             <a href="{{ url('/product/ceylon-cinnamon-powder') }}" class="tg-btn red-btn">Explore Now
                                 <span>
@@ -279,6 +280,23 @@
         </div>
         <div class="about__shape">
             <img class="banner-swing-img-bottom-right" src="{{ asset('assets/common/images/plant-shape-2.png') }}" alt="shape" data-sal="slide-right" data-sal-duration="700" data-sal-delay="100">
+        </div>
+    </section>
+
+    <section id="features" class="features__area section-pt-150">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="section__title text-center mb-50" data-sal="slide-up" data-sal-duration="700" data-sal-delay="100">
+                        <span class="sub-title">The Essence of Ceylon</span>
+                        <h2 class="title">Love Ceylon. Love Cinnamon.</h2>
+                        <p>From the southern fields of Sri Lanka, where cinnamon grows under tropical sun and sea breeze, to your hands — Aaley carries a story of connection. Each quill is a whisper of Ceylon’s spirit: fragrant, pure, and made with love.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="features__shape">
+            <img class="banner-swing-img-bottom-right" src="{{ asset('assets/common/images/plant-shape-1.png') }}" alt="shape" data-sal="zoom-in" data-sal-duration="700" data-sal-delay="100">
         </div>
     </section>
 

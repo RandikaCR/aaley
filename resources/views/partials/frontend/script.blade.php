@@ -16,3 +16,7 @@
 
 <script src="{{ asset('assets/common/js/app.js') }}"></script>
 <script src="{{ asset('assets/common/js/common.js') }}"></script>
+
+<script src="{{ asset('assets/common/libs/sweetalert2/sweetalert2.min.js') }}"></script>
+
+@yield('script')

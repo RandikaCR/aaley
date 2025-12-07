@@ -15,7 +15,7 @@
 
 @section('content')
 
-    <section class="breadcrumb__area breadcrumb__bg" data-background="{{ asset('assets/frontend/img/bg/sd_bg.jpg') }}">
+    <section class="breadcrumb__area breadcrumb__bg" data-background="{{ asset('assets/common/images/sd_bg.jpg') }}">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-10">
@@ -31,10 +31,6 @@
                     </div>
                 </div>
             </div>
-        </div>`
-
-        <div class="section__bg-shape">
-            <span class="bottom-shape" data-background="{{ asset('assets/frontend/img/bg/section_bg_shape02.svg') }}"></span>
         </div>
     </section>
 

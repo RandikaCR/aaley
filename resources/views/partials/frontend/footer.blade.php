@@ -42,7 +42,7 @@
                         <h2 class="footer__widget-title">Support</h2>
                         <ul class="list-wrap footer__widget-link">
                             <li><a href="mailto:hello@aaleyceylon.com">hello@aaleyceylon.com</a></li>
-                            <li><a href="tel:+94712345678">+94712345678</a></li>
+                            <li><a href="tel:+94712345678">+94 71 234 5678</a></li>
                             <li><a href="javascript:void(0);">3/8, Koshena Road, Malabe, Colombo 10115, Sri Lanka</a></li>
                         </ul>
                     </div>
