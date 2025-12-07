@@ -14,10 +14,10 @@
                             </div>
                             <div class="tgmenu__navbar-wrap tgmenu__main-menu d-none d-xl-flex justify-content-end">
                                 <ul class="navigation">
-                                    <li class="active"><a href="{{ url('/') }}">Home</a></li>
-                                    <li><a href="{{ url('/products') }}">Products</a></li>
-                                    <li><a href="{{ url('/about-us') }}">About Us</a></li>
-                                    <li><a href="{{ url('/contact-us') }}">Contact Us</a></li>
+                                    <li class="{{ (request()->segment(1) == '') ? 'active' : '' }}"><a href="{{ url('/') }}">Home</a></li>
+                                    <li class="{{ (request()->segment(1) == 'products' || request()->segment(1) == 'product') ? 'active' : '' }}"><a href="{{ url('/products') }}">Products</a></li>
+                                    <li class="{{ (request()->segment(1) == 'about-us') ? 'active' : '' }}"><a href="{{ url('/about-us') }}">About Us</a></li>
+                                    <li class="{{ (request()->segment(1) == 'contact-us') ? 'active' : '' }}"><a href="{{ url('/contact-us') }}">Contact Us</a></li>
                                 </ul>
                             </div>
                             <div class="mobile-nav-toggler">
