@@ -1,4 +1,4 @@
-<footer class="footer__area footer__bg" data-background="{{ asset('assets/frontend/img/bg/footer_bg.jpg') }}">
+<footer class="footer__area footer__bg" data-background="{{ asset('assets/common/images/footer_bg.jpg') }}">
     <div class="footer__top">
         <div class="container">
             <div class="row">

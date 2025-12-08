@@ -20,7 +20,7 @@
             <div class="row justify-content-center">
                 <div class="col-xl-10">
                     <div class="breadcrumb__content">
-                        <h2 class="title al-theme-text-primary">Aaley Products</h2>
+                        <h2 class="title al-theme-text-primary">Aaley Products for</h2>
                         <nav class="breadcrumb">
                                 <span property="itemListElement" typeof="ListItem">
                                     <a class="al-text-primary" href="{{ url('/') }}">Home</a>

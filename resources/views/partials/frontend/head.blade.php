@@ -36,9 +36,15 @@
         color: var(--tg-text-secondary) !important;
     }
 
-    .al-heading-font{
-        font-family: var(--tg-heading-font-family) !important;
+    .title, .al-heading-font{
+        font-family: "Anek Tamil", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        font-variation-settings: "wdth" 100;
     }
+
+
 
     .al-fw-600{
         font-weight: 600;
