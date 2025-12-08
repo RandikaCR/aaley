@@ -45,7 +45,7 @@
                 </div>
             </div>
             <div class="row gutter-y-30 gutter-20 justify-content-center">
-                <div class="col-xl-4 col-lg-4 col-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="100">
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12" data-sal="slide-up" data-sal-duration="800" data-sal-delay="100">
                     <div class="product__item">
                         <div class="product__thumb">
                             <a href="{{ url('/product/ceylon-cinnamon-quills') }}"><img src="{{ asset('assets/common/images/product-quills.jpg') }}" alt="img"></a>
@@ -66,7 +66,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 col-lg-4 col-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="100">
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12" data-sal="slide-up" data-sal-duration="800" data-sal-delay="100">
                     <div class="product__item">
                         <div class="product__thumb">
                             <a href="{{ url('/product/ceylon-cinnamon-powder') }}"><img src="{{ asset('assets/common/images/product-powder.jpg') }}" alt="img"></a>
