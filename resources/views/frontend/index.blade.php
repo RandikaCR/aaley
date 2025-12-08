@@ -302,12 +302,12 @@
 
 
     <!-- cta-area -->
-    <section class="cta__area cta__bg" data-background="{{ asset('assets/frontend/img/bg/cta_bg.svg') }}">
+    <section class="cta__area cta__bg" data-background="{{ asset('assets/common/images/cta_bg.jpg') }}">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-7">
                     <div class="cta__content">
-                        <h2 class="title">Connect with Aaley Ceylon.</h2>
+                        <h2 class="title al-text-primary">Connect with Aaley Ceylon.</h2>
                     </div>
                 </div>
                 <div class="col-lg-5">
