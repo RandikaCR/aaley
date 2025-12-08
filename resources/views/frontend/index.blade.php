@@ -43,11 +43,11 @@
                 <div class="swiper-slide">
                     <div class="slider__bg" data-background="{{ asset('assets/common/images/banner_bg.jpg') }}">
                         <div class="container">
-                            <div class="row">
+                            <div class="row align-items-center">
                                 <div class="col-lg-6">
                                     <div class="slider__content">
                                         <h2 class="title al-text-primary">True Love for true Cinnamon</h2>
-                                        <p class="sub-title al-text-secondary">From the lush landscapes of Sri Lanka comes Aaley Ceylon — a celebration of purity, craft, and devotion to the world’s finest cinnamon.</p>
+                                        <p class="sub-title al-text-secondary">From the lush landscapes of Sri Lanka comes Aaley Ceylon — <br>a celebration of purity, craft, and devotion to the world’s finest cinnamon.</p>
                                         <a href="{{ url('/products') }}" class="tg-btn red-btn">Explore Our Collection
                                             <span>
                                                     <svg width="15" height="12" viewBox="0 0 15 12" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -79,11 +79,11 @@
                 <div class="swiper-slide">
                     <div class="slider__bg" data-background="{{ asset('assets/common/images/banner_bg.jpg') }}">
                         <div class="container">
-                            <div class="row">
+                            <div class="row align-items-center">
                                 <div class="col-lg-6">
                                     <div class="slider__content">
                                         <h2 class="title al-text-primary">True Love for true Cinnamon</h2>
-                                        <p class="sub-title al-text-secondary">From the lush landscapes of Sri Lanka comes Aaley Ceylon — a celebration of purity, craft, and devotion to the world’s finest cinnamon.</p>
+                                        <p class="sub-title al-text-secondary">From the lush landscapes of Sri Lanka comes Aaley Ceylon — <br>a celebration of purity, craft, and devotion to the world’s finest cinnamon.</p>
                                         <a href="{{ url('/products') }}" class="tg-btn red-btn">Explore Our Collection
                                             <span>
                                                     <svg width="15" height="12" viewBox="0 0 15 12" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -144,10 +144,10 @@
             <div class="row justify-content-center">
                 <div class="col-lg-6">
                     <div class="section__title text-center mb-50" data-sal="slide-up" data-sal-duration="700" data-sal-delay="100">
-                        <span class="sub-title">Our Story</span>
-                        <h2 class="title">Born in Ceylon. Made with Love.</h2>
+                        <span class="sub-title al-text-primary">Our Story</span>
+                        <h2 class="title al-theme-text-primary">Born in Ceylon. Made with Love.</h2>
                         <p>Aaley Ceylon is inspired by a simple truth — the best things in life are crafted with care. From hand-rolled cinnamon quills to the gentle fragrance that fills the air, our products embody the love and labour of Sri Lankan artisans. Rooted in tradition and guided by authenticity, we ensure every stick of cinnamon reflects the soul of our island — pure, delicate, and filled with warmth.</p>
-                        <h5 class="mt-4 fst-italic"> “Aaley is where love for the land and the art of cinnamon become one.”</h5>
+                        <h5 class="mt-4 fst-italic al-theme-text-primary"> “Aaley is where love for the land and the art of cinnamon become one.”</h5>
                     </div>
                 </div>
             </div>
@@ -163,8 +163,8 @@
             <div class="row justify-content-center">
                 <div class="col-12 mb-4">
                     <div class="section__title text-center mb-50" data-sal="slide-up" data-sal-duration="700" data-sal-delay="100">
-                        <span class="sub-title">Our Collection</span>
-                        <h2 class="title">Crafted with Purity. Perfected by Nature.</h2>
+                        <span class="sub-title al-text-primary">Our Collection</span>
+                        <h2 class="title al-theme-text-primary">Crafted with Purity. Perfected by Nature.</h2>
                         <p>Each Aaley creation captures the true essence of Ceylon cinnamon — elegant, aromatic, and unmistakably pure.</p>
                     </div>
                 </div>
@@ -176,7 +176,7 @@
                 <div class="col-lg-6">
                     <div class="about__content-two">
                         <div class="section__title mb-30">
-                            <h2 class="title al-theme-text-primary">Ceylon Cinnamon Quills</h2>
+                            <h2 class="title al-theme-text-primary a-fw-600">Ceylon Cinnamon Quills</h2>
                         </div>
                         <p>Hand-rolled with precision, preserving the signature aroma and golden hue of true Ceylon cinnamon.</p>
                         <h2 class="price mb-5 al-theme-text-primary">{{ 'LKR. ' . number_format(5000, 2) }}</h2>
@@ -252,7 +252,7 @@
                 <div class="col-lg-6">
                     <div class="about__content">
                         <div class="section__title mb-30">
-                            <h2 class="title al-theme-text-primary">Ceylon Cinnamon Powder</h2>
+                            <h2 class="title al-theme-text-primary a-fw-600">Ceylon Cinnamon Powder</h2>
                         </div>
                         <p>Finely ground to perfection — ideal for both gourmet creations and everyday wellness.</p>
                         <h2 class="price mb-5 al-theme-text-primary">{{ 'LKR. ' . number_format(5000, 2) }}</h2>
@@ -288,8 +288,8 @@
             <div class="row justify-content-center">
                 <div class="col-lg-6">
                     <div class="section__title text-center mb-50" data-sal="slide-up" data-sal-duration="700" data-sal-delay="100">
-                        <span class="sub-title">The Essence of Ceylon</span>
-                        <h2 class="title">Love Ceylon. Love Cinnamon.</h2>
+                        <span class="sub-title al-text-primary">The Essence of Ceylon</span>
+                        <h2 class="title al-theme-text-primary">Love Ceylon. Love Cinnamon.</h2>
                         <p>From the southern fields of Sri Lanka, where cinnamon grows under tropical sun and sea breeze, to your hands — Aaley carries a story of connection. Each quill is a whisper of Ceylon’s spirit: fragrant, pure, and made with love.</p>
                     </div>
                 </div>

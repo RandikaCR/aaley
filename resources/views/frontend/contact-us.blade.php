@@ -10,13 +10,13 @@
             <div class="row justify-content-center">
                 <div class="col-xl-10">
                     <div class="breadcrumb__content">
-                        <h2 class="title">Connect with Aaley Ceylon.</h2>
+                        <h2 class="title al-theme-text-primary">Connect with Aaley Ceylon.</h2>
                         <nav class="breadcrumb">
                                 <span property="itemListElement" typeof="ListItem">
-                                    <a href="{{ url('/') }}">Home</a>
+                                    <a class="al-text-primary" href="{{ url('/') }}">Home</a>
                                 </span>
                             <span class="breadcrumb-separator">|</span>
-                            <span property="itemListElement" typeof="ListItem">Contact Us</span>
+                            <span class="al-text-primary" property="itemListElement" typeof="ListItem">Contact Us</span>
                         </nav>
                     </div>
                 </div>
@@ -46,7 +46,7 @@
                 <div class="col-lg-6">
                     <div class="contact__info-wrap">
                         <div class="contact__info-item">
-                            <h4 class="title">Colombo</h4>
+                            <h4 class="title al-theme-text-primary">Colombo</h4>
                             <p>3/8, Koshena Road, Malabe, Colombo 10115, Sri Lanka</p>
                             <ul class="list-wrap">
                                 <li>
@@ -67,22 +67,22 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="contact__form-wrap">
-                        <h2 class="title">Leave Us A Message</h2>
+                        <h2 class="title al-theme-text-primary">Leave Us A Message</h2>
                         <form id="contact-form" action="" class="contact__form" method="POST">
                             <div class="form-grp">
-                                <label for="name">Name *</label>
+                                <label class="al-text-primary" for="name">Name *</label>
                                 <input id="name" name="name" type="text">
                             </div>
                             <div class="form-grp">
-                                <label for="email">Email *</label>
+                                <label class="al-text-primary" for="email">Email *</label>
                                 <input id="email" name="email" type="email">
                             </div>
                             <div class="form-grp">
-                                <label for="subject">Subject *</label>
+                                <label class="al-text-primary" for="subject">Subject *</label>
                                 <input id="subject" name="subject" type="text">
                             </div>
                             <div class="form-grp">
-                                <label for="message">Message *</label>
+                                <label class="al-text-primary" for="message">Message *</label>
                                 <textarea name="message" id="message"></textarea>
                             </div>
                             <a href="javascript:void(0);" class="tg-btn tg-btn-three black-btn send-message">Submit Message</a>

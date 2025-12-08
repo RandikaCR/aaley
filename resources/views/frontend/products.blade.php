@@ -20,13 +20,13 @@
             <div class="row justify-content-center">
                 <div class="col-xl-10">
                     <div class="breadcrumb__content">
-                        <h2 class="title">Aaley Products</h2>
+                        <h2 class="title al-theme-text-primary">Aaley Products</h2>
                         <nav class="breadcrumb">
                                 <span property="itemListElement" typeof="ListItem">
-                                    <a href="{{ url('/') }}">Home</a>
+                                    <a class="al-text-primary" href="{{ url('/') }}">Home</a>
                                 </span>
                             <span class="breadcrumb-separator">|</span>
-                            <span property="itemListElement" typeof="ListItem">Aaley Products</span>
+                            <span class="al-text-primary" property="itemListElement" typeof="ListItem">Aaley Products</span>
                         </nav>
                     </div>
                 </div>
@@ -39,8 +39,8 @@
             <div class="row justify-content-center">
                 <div class="col-lg-6">
                     <div class="section__title text-center mb-60">
-                        <span class="sub-title">Our Collection</span>
-                        <h2 class="title">Crafted with Purity. Perfected by Nature.</h2>
+                        <span class="sub-title al-text-primary">Our Collection</span>
+                        <h2 class="title al-theme-text-primary">Crafted with Purity. Perfected by Nature.</h2>
                     </div>
                 </div>
             </div>
@@ -51,8 +51,8 @@
                             <a href="{{ url('/product/ceylon-cinnamon-quills') }}"><img src="{{ asset('assets/common/images/product-quills.jpg') }}" alt="img"></a>
                         </div>
                         <div class="product__content">
-                            <h2 class="title"><a href="{{ url('/product/ceylon-cinnamon-quills') }}">Ceylon Cinnamon Quills</a></h2>
-                            <h2 class="price">{{ 'LKR. ' . number_format(5000, 2) }}</h2>
+                            <h2 class="title al-theme-text-primary"><a href="{{ url('/product/ceylon-cinnamon-quills') }}">Ceylon Cinnamon Quills</a></h2>
+                            <h2 class="price al-text-primary">{{ 'LKR. ' . number_format(5000, 2) }}</h2>
                             <div class="product__content-bottom">
                                 <a href="{{ url('/product/ceylon-cinnamon-quills') }}" class="tg-btn red-btn">Explore Now
                                     <span>
@@ -72,8 +72,8 @@
                             <a href="{{ url('/product/ceylon-cinnamon-powder') }}"><img src="{{ asset('assets/common/images/product-powder.jpg') }}" alt="img"></a>
                         </div>
                         <div class="product__content">
-                            <h2 class="title"><a href="{{ url('/product/ceylon-cinnamon-powder') }}">Ceylon Cinnamon Powder</a></h2>
-                            <h2 class="price">{{ 'LKR. ' . number_format(5000, 2) }}</h2>
+                            <h2 class="title al-theme-text-primary"><a href="{{ url('/product/ceylon-cinnamon-powder') }}">Ceylon Cinnamon Powder</a></h2>
+                            <h2 class="price al-text-primary">{{ 'LKR. ' . number_format(5000, 2) }}</h2>
                             <div class="product__content-bottom">
                                 <a href="{{ url('/product/ceylon-cinnamon-powder') }}" class="tg-btn red-btn">Explore Now
                                     <span>

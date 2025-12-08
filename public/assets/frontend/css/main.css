@@ -847,8 +847,8 @@ textarea {
   top: 0;
   height: 100%;
   width: 100%;
-  background: #090909;
-  opacity: 0.85;
+  background: #757373;
+  opacity: 0.2;
   z-index: -1;
 }
 .breadcrumb__content {
@@ -8717,7 +8717,7 @@ blockquote cite {
   color: rgba(255, 255, 255, 0.7);
 }
 .footer__widget-link li a:hover {
-  color: var(--tg-color-orange-light);
+  color: var(--tg-theme-primary);
 }
 .footer__logo {
   margin-bottom: 30px;

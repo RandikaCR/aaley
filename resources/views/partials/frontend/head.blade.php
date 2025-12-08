@@ -36,6 +36,16 @@
         color: var(--tg-text-secondary) !important;
     }
 
+    .al-heading-font{
+        font-family: var(--tg-heading-font-family) !important;
+    }
+
+    .al-fw-600{
+        font-weight: 600;
+    }
+
+
+
     .banner-swing-img-top-left{
         -webkit-animation: moverTopLeft 2s infinite  alternate;
         animation: moverTopLeft 2s infinite  alternate;
