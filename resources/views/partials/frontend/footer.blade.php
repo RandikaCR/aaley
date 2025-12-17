@@ -33,6 +33,7 @@
                         <ul class="list-wrap footer__widget-link">
                             <li><a href="{{ url('/about-us') }}">About Us</a></li>
                             <li><a href="{{ url('/products') }}">Products</a></li>
+                            <li><a href="{{ url('/gallery') }}">Gallery</a></li>
                             <li><a href="{{ url('/contact-us') }}">Contact Us</a></li>
                         </ul>
                     </div>
