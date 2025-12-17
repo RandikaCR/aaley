@@ -27,7 +27,7 @@
     <section id="features" class="features__area section-pt-150">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-md-6">
+                <div class="col-md-12">
                     <div class="section__title text-center mb-50" data-sal="slide-up" data-sal-duration="700" data-sal-delay="100">
                         <span class="sub-title al-text-primary">Our Story</span>
                         <h2 class="title al-theme-text-primary">Born in Ceylon. Made with Love.</h2>
