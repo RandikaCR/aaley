@@ -16,6 +16,7 @@
                                 <ul class="navigation">
                                     <li class="{{ (request()->segment(1) == '') ? 'active' : '' }}"><a href="{{ url('/') }}">Home</a></li>
                                     <li class="{{ (request()->segment(1) == 'products' || request()->segment(1) == 'product') ? 'active' : '' }}"><a href="{{ url('/products') }}">Products</a></li>
+                                    <li class="{{ (request()->segment(1) == 'gallery') ? 'active' : '' }}"><a href="{{ url('/gallery') }}">Gallery</a></li>
                                     <li class="{{ (request()->segment(1) == 'about-us') ? 'active' : '' }}"><a href="{{ url('/about-us') }}">About Us</a></li>
                                     <li class="{{ (request()->segment(1) == 'contact-us') ? 'active' : '' }}"><a href="{{ url('/contact-us') }}">Contact Us</a></li>
                                 </ul>

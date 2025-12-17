@@ -10,6 +10,7 @@ use App\Http\Controllers\Frontend\ProductsController AS FrontendProducts;
 Route::group([ 'prefix' =>'/'], function () {
 
     Route::get('/', [Frontend::class, 'index'])->name('frontend.homepage');
+    Route::get('/gallery', [Frontend::class, 'gallery'])->name('frontend.gallery');
     Route::get('/about-us', [Frontend::class, 'aboutUs'])->name('frontend.aboutUs');
     Route::get('/contact-us', [Frontend::class, 'contactUs'])->name('frontend.contactUs');
     Route::get('/products', [FrontendProducts::class, 'index'])->name('frontend.products.index');
