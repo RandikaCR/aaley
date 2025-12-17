@@ -50,7 +50,7 @@
                             <p>3/8, Koshena Road, Malabe, Colombo 10115, Sri Lanka</p>
                             <ul class="list-wrap">
                                 <li>
-                                    <a href="tel:+94712345678">+94 71 234 5678</a>
+                                    <a href="tel:+94761392267">+94 76 139 2267</a>
                                 </li>
                                 <li>
                                     <a href="mailto:hello@aaleyceylon.com">hello@aaleyceylon.com</a>

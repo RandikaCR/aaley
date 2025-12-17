@@ -46,7 +46,7 @@
                             <div class="row align-items-center">
                                 <div class="col-lg-6">
                                     <div class="slider__content">
-                                        <h2 class="title al-text-primary anek-tamil-600">True Love for true Cinnamon</h2>
+                                        <h2 class="title al-text-primary anek-tamil-600">True Love for True Cinnamon</h2>
                                         <p class="sub-title al-text-secondary">From the lush landscapes of Sri Lanka comes Aaley Ceylon — <br>a celebration of purity, craft, and devotion to the world’s finest cinnamon.</p>
                                         <a href="{{ url('/products') }}" class="tg-btn red-btn">Explore Our Collection
                                             <span>
@@ -142,10 +142,10 @@
     <section id="features" class="features__area section-pt-150">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-lg-6">
+                <div class="col-lg-9">
                     <div class="section__title text-center mb-50" data-sal="slide-up" data-sal-duration="700" data-sal-delay="100">
                         <span class="sub-title al-text-primary">Our Story</span>
-                        <h2 class="title al-theme-text-primary">Born in Ceylon. Made with Love.</h2>
+                        <h2 class="title al-theme-text-primary">Born in Ceylon<br>Made with Love</h2>
                         <p>Aaley Ceylon is inspired by a simple truth — the best things in life are crafted with care. From hand-rolled cinnamon quills to the gentle fragrance that fills the air, our products embody the love and labour of Sri Lankan artisans. Rooted in tradition and guided by authenticity, we ensure every stick of cinnamon reflects the soul of our island — pure, delicate, and filled with warmth.</p>
                         <h5 class="mt-4 fst-italic al-theme-text-primary"> “Aaley is where love for the land and the art of cinnamon become one.”</h5>
                     </div>
@@ -164,7 +164,7 @@
                 <div class="col-12 mb-4">
                     <div class="section__title text-center mb-50" data-sal="slide-up" data-sal-duration="700" data-sal-delay="100">
                         <span class="sub-title al-text-primary">Our Collection</span>
-                        <h2 class="title al-theme-text-primary">Crafted with Purity. Perfected by Nature.</h2>
+                        <h2 class="title al-theme-text-primary">Crafted with Purity - Perfected by Nature</h2>
                         <p>Each Aaley creation captures the true essence of Ceylon cinnamon — elegant, aromatic, and unmistakably pure.</p>
                     </div>
                 </div>
@@ -291,7 +291,7 @@
                 <div class="col-lg-6">
                     <div class="section__title text-center mb-50" data-sal="slide-up" data-sal-duration="700" data-sal-delay="100">
                         <span class="sub-title al-text-primary">The Essence of Ceylon</span>
-                        <h2 class="title al-theme-text-primary">Love Ceylon. Love Cinnamon.</h2>
+                        <h2 class="title al-theme-text-primary">Love Ceylon<br>Love Cinnamon</h2>
                         <p>From the southern fields of Sri Lanka, where cinnamon grows under tropical sun and sea breeze, to your hands — Aaley carries a story of connection. Each quill is a whisper of Ceylon’s spirit: fragrant, pure, and made with love.</p>
                     </div>
                 </div>
