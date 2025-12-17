@@ -82,7 +82,7 @@
                             <div class="row align-items-center">
                                 <div class="col-lg-6">
                                     <div class="slider__content">
-                                        <h2 class="title al-text-primary anek-tamil-600">True Love for true Cinnamon</h2>
+                                        <h2 class="title al-text-primary anek-tamil-600">True Love for True Cinnamon</h2>
                                         <p class="sub-title al-text-secondary">From the lush landscapes of Sri Lanka comes Aaley Ceylon — <br>a celebration of purity, craft, and devotion to the world’s finest cinnamon.</p>
                                         <a href="{{ url('/products') }}" class="tg-btn red-btn">Explore Our Collection
                                             <span>
