@@ -31,7 +31,7 @@
                     <div class="footer__widget">
                         <h2 class="footer__widget-title">Connect with Aaley Ceylon</h2>
                         <ul class="list-wrap footer__widget-link">
-                            <li><a href="{{ url('/about-us') }}">About Us</a></li>
+                            <li><a href="{{ url('/about-us') }}">Our Story</a></li>
                             <li><a href="{{ url('/products') }}">Products</a></li>
                             <li><a href="{{ url('/gallery') }}">Gallery</a></li>
                             <li><a href="{{ url('/contact-us') }}">Contact Us</a></li>
