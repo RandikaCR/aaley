@@ -29,7 +29,7 @@
                 </div>
                 <div class="col-lg-4 col-6">
                     <div class="footer__widget">
-                        <h2 class="footer__widget-title">Connect with Aaley Ceylon.</h2>
+                        <h2 class="footer__widget-title">Connect with Aaley Ceylon</h2>
                         <ul class="list-wrap footer__widget-link">
                             <li><a href="{{ url('/about-us') }}">About Us</a></li>
                             <li><a href="{{ url('/products') }}">Products</a></li>
@@ -43,7 +43,7 @@
                         <ul class="list-wrap footer__widget-link">
                             <li><a href="mailto:hello@aaleyceylon.com">hello@aaleyceylon.com</a></li>
                             <li><a href="tel:+94761392267">+94 76 139 2267</a></li>
-                            <li><a href="javascript:void(0);">3/8, Koshena Road, Malabe, Colombo 10115, Sri Lanka</a></li>
+                            <li><a href="javascript:void(0);">3/8, Koshena Road, Malabe, Colombo 10115,<br>Sri Lanka</a></li>
                         </ul>
                     </div>
                 </div>
@@ -55,7 +55,7 @@
             <div class="row aling-items-center">
                 <div class="col-lg-12 d-flex justify-content-center">
                     <div class="copyright__content">
-                        <p>Copyright {{ date('Y', time()) }} © Aaley Ceylon.</p>
+                        <p>Copyright {{ date('Y', time()) }} © Aaley Ceylon</p>
                     </div>
                 </div>
             </div>
