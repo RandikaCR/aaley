@@ -31,7 +31,7 @@ class ProductsController extends Controller
         elseif ($slug == 'ceylon-cinnamon-powder'){
             $product = [
                 'product' => 'Ceylon Cinnamon Powder',
-                'description' => 'HFinely ground to perfection — ideal for both gourmet creations and everyday wellness.',
+                'description' => 'Finely ground to perfection — ideal for both gourmet creations and everyday wellness.',
                 'price' => 'LKR ' . number_format(1050, 2),
                 'weight' => '30g',
                 'images' => [
