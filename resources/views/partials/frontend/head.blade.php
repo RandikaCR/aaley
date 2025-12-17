@@ -105,6 +105,12 @@
 
     .slider__bg{
         background-image: linear-gradient(to left, #E7BD90 , #F7EBD3) !important;
+        padding: 120px 0 120px;
     }
 
+    @media (max-width: 1500px) {
+        .slider__bg {
+            min-height: 600px;
+        }
+    }
 </style>
