@@ -179,7 +179,8 @@
                             <h2 class="title al-theme-text-primary a-fw-600">Ceylon Cinnamon Quills</h2>
                         </div>
                         <p>Hand-rolled with precision, preserving the signature aroma and golden hue of true Ceylon cinnamon.</p>
-                        <h2 class="price mb-5 al-theme-text-primary">{{ 'LKR. ' . number_format(5000, 2) }}</h2>
+                        <!-- <h5 class="al-theme-text-primary">Weight:<span class="ms-2 fw-bold">25g</span></h5>
+                        <h2 class="price mb-5 al-theme-text-primary">Price:<span class="ms-2 fw-bold">{{ 'LKR. ' . number_format(740, 2) }}</span></h2> -->
                         {{--<div class="about__list-two">
                             <div class="about__list-item">
                                 <div class="icon">
@@ -255,7 +256,8 @@
                             <h2 class="title al-theme-text-primary a-fw-600">Ceylon Cinnamon Powder</h2>
                         </div>
                         <p>Finely ground to perfection — ideal for both gourmet creations and everyday wellness.</p>
-                        <h2 class="price mb-5 al-theme-text-primary">{{ 'LKR. ' . number_format(5000, 2) }}</h2>
+                        <!-- <h5 class="al-theme-text-primary">Weight:<span class="ms-2 fw-bold">30g</span></h5>
+                        <h2 class="price mb-5 al-theme-text-primary">Price:<span class="ms-2 fw-bold">{{ 'LKR. ' . number_format(1050, 2) }}</span></h2> -->
                         <div class="about__btn">
                             <a href="{{ url('/product/ceylon-cinnamon-powder') }}" class="tg-btn red-btn">Explore Now
                                 <span>

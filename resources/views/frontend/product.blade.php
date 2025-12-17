@@ -84,7 +84,9 @@
                 <div class="col-lg-6">
                     <div class="product__details-content">
                         <h4 class="title al-theme-text-primary">{{ $product->product }}</h4>
-                        <h2 class="product__details-price al-text-primary">{{ $product->price }}</h2>
+                        <!-- <h2 class="product__details-price al-text-primary">{{ $product->price }}</h2> -->
+                        <h5 class="al-text-primary">Weight:<span class="ms-2 fw-bold">{{ $product->weight }}</span></h5>
+                        <h2 class="product__details-price al-text-primary">Price:<span class="ms-2 fw-bold">{{ $product->price }}</span></h2>
                         <p>{{ $product->description }}</p>
                         <div class="product__details-info">
                             <a href="{{ url('/contact-us') }}" class="tg-btn border-btn">Contact Now

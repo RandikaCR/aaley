@@ -108,6 +108,36 @@
         padding: 120px 0 120px;
     }
 
+    /* overlay at start */
+    .mfp-fade.mfp-bg {
+    opacity: 0;
+    transition: all 0.15s ease-out;
+    }
+    /* overlay animate in */
+    .mfp-fade.mfp-bg.mfp-ready {
+    opacity: 0.8; /* or your desired opacity */
+    }
+    /* overlay animate out */
+    .mfp-fade.mfp-bg.mfp-removing {
+    opacity: 0;
+    }
+    /* content at start */
+    .mfp-fade.mfp-wrap .mfp-content {
+    opacity: 0;
+    transition: all 0.15s ease-out;
+    transform: scale(0.8); /* Optional: add a slight scale effect */
+    }
+    /* content animate in */
+    .mfp-fade.mfp-wrap.mfp-ready .mfp-content {
+    opacity: 1;
+    transform: scale(1);
+    }
+    /* content animate out */
+    .mfp-fade.mfp-wrap.mfp-removing .mfp-content {
+    opacity: 0;
+    transform: scale(0.8);
+    }
+
     @media (max-width: 1500px) {
         .slider__bg {
             min-height: 600px;

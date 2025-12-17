@@ -52,7 +52,8 @@
                         </div>
                         <div class="product__content">
                             <h2 class="title al-theme-text-primary"><a href="{{ url('/product/ceylon-cinnamon-quills') }}">Ceylon Cinnamon Quills</a></h2>
-                            <h2 class="price al-text-primary">{{ 'LKR. ' . number_format(5000, 2) }}</h2>
+                            <!-- <h5 class="al-text-primary">Weight:<span class="ms-2 fw-bold">25g</span></h5>
+                            <h2 class="price mb-5 al-text-primary">Price:<span class="ms-2 fw-bold">{{ 'LKR. ' . number_format(740, 2) }}</span></h2> -->
                             <div class="product__content-bottom">
                                 <a href="{{ url('/product/ceylon-cinnamon-quills') }}" class="tg-btn red-btn">Explore Now
                                     <span>
@@ -73,7 +74,8 @@
                         </div>
                         <div class="product__content">
                             <h2 class="title al-theme-text-primary"><a href="{{ url('/product/ceylon-cinnamon-powder') }}">Ceylon Cinnamon Powder</a></h2>
-                            <h2 class="price al-text-primary">{{ 'LKR. ' . number_format(5000, 2) }}</h2>
+                            <!-- <h5 class="al-text-primary">Weight:<span class="ms-2 fw-bold">30g</span></h5>
+                            <h2 class="price mb-5 al-text-primary">Price:<span class="ms-2 fw-bold">{{ 'LKR. ' . number_format(1050, 2) }}</span></h2> -->
                             <div class="product__content-bottom">
                                 <a href="{{ url('/product/ceylon-cinnamon-powder') }}" class="tg-btn red-btn">Explore Now
                                     <span>

@@ -71,15 +71,21 @@
 @section('script')
 <script>
     $(document).ready(function() {
-    $('.popup-gallery').magnificPopup({
-        delegate: 'a', // the selector for gallery item
-        type: 'image',
-        gallery: {
-            enabled: true, // enables the gallery functionality
-            preload: [0, 1] // preload 0 - before current, and 1 after the current image
-        },
-        // Other options like callbacks or mainClass can be added here
+        $('.popup-gallery').magnificPopup({
+            delegate: 'a', // the selector for gallery item
+            type: 'image',
+            // type: 'inline',
+            mainClass: 'mfp-fade', // Adds the 'mfp-fade' class to the wrapper
+            removalDelay: 160, // Delay in milliseconds before popup is removed
+            midClick: true, // Allow opening popup on middle mouse click
+            gallery: {
+                enabled: true, // enables the gallery functionality
+                preload: [0, 1] // preload 0 - before current, and 1 after the current image
+            },
+            // Other options like callbacks or mainClass can be added here
+        });
+
+
     });
-});
 </script>
 @endsection
