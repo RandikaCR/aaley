@@ -285,7 +285,7 @@
         </div>
     </section>
 
-    <section id="features" class="features__area section-pt-150">
+    {{--<section id="features" class="features__area section-pt-150">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-6">
@@ -300,7 +300,7 @@
         <div class="features__shape">
             <img class="banner-swing-img-bottom-right" src="{{ asset('assets/common/images/plant-shape-1.png') }}" alt="shape" data-sal="zoom-in" data-sal-duration="700" data-sal-delay="100">
         </div>
-    </section>
+    </section>--}}
 
 
     <!-- cta-area -->
