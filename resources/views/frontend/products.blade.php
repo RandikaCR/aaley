@@ -1,7 +1,7 @@
 @extends('layouts.frontend')
 
 @section('page_title')
-    Products
+    Our Collection
 @endsection
 
 @section('css')
@@ -20,13 +20,13 @@
             <div class="row justify-content-center">
                 <div class="col-xl-10">
                     <div class="breadcrumb__content">
-                        <h2 class="title al-text-primary al-fw-600">Aaley Products</h2>
+                        <h2 class="title al-text-primary al-fw-600">Our Collection</h2>
                         <nav class="breadcrumb">
                                 <span property="itemListElement" typeof="ListItem">
                                     <a class="al-text-primary" href="{{ url('/') }}">Home</a>
                                 </span>
                             <span class="breadcrumb-separator">|</span>
-                            <span class="al-text-primary" property="itemListElement" typeof="ListItem">Aaley Products</span>
+                            <span class="al-text-primary" property="itemListElement" typeof="ListItem">Our Collection</span>
                         </nav>
                     </div>
                 </div>
