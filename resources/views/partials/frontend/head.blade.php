@@ -2,8 +2,18 @@
 <meta name="csrf-token" content="{{ csrf_token() }}">
 <meta http-equiv="x-ua-compatible" content="ie=edge">
 <title>@yield('page_title') :: Aaley Official Website</title>
-<meta name="description" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta name="description" content="Aaley Ceylon is inspired by a simple truth — the best things in life are crafted with care. From hand-rolled cinnamon quills to the gentle fragrance that fills the air, our products embody the love and labour of Sri Lankan artisans. Rooted in tradition and guided by authenticity, we ensure every stick of cinnamon reflects the soul of our island — pure, delicate, and filled with warmth.">
+<meta name="keywords" content="aaley, Sri Lanka, Cinnamon, Srilankan Cinnamon, Quality Cinnamon, Quality Products, Ceylon Cinnamon">
+<meta name="author" content="www.aaleyceylon.com">
+
+<meta property="og:title" content="Aaley Ceylon" />
+<meta property="og:description" content="Aaley Ceylon is inspired by a simple truth — the best things in life are crafted with care. From hand-rolled cinnamon quills to the gentle fragrance that fills the air, our products embody the love and labour of Sri Lankan artisans. Rooted in tradition and guided by authenticity, we ensure every stick of cinnamon reflects the soul of our island — pure, delicate, and filled with warmth." />
+<meta property="og:image" content="{{ asset('assets/common/images/meta-image.jpg') }}" />
+<meta property="og:url" content="www.aaleyceylon.com" />
+<meta property="og:type" content="article" />
+<meta property="og:site_name" content="Aaley Ceylon" />
 
 <link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets/common/images/favicon.png') }}">
 
