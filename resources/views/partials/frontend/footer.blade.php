@@ -54,9 +54,12 @@
     <div class="footer__bottom">
         <div class="container">
             <div class="row aling-items-center">
-                <div class="col-lg-12 d-flex justify-content-center">
+                <div class="col-lg-12 d-flex justify-content-between">
                     <div class="copyright__content">
                         <p>Copyright {{ date('Y', time()) }} © Aaley Ceylon</p>
+                    </div>
+                    <div class="copyright__content">
+                        <p>Designed & Developed by <a href="https://mediapassion.lk/" target="_blank">Media Passion</a></p>
                     </div>
                 </div>
             </div>
