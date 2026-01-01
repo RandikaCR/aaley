@@ -19,7 +19,7 @@ class ProductsController extends Controller
             $product = [
                 'product' => 'Ceylon Cinnamon Quills',
                 'description' => 'Hand-rolled with precision, preserving the signature aroma and golden hue of true Ceylon cinnamon.',
-                'price' => 'LKR ' . number_format(740, 2),
+                'price' => 'LKR ' . number_format(550, 2),
                 'weight' => '25g',
                 'images' => [
                     'product-quills.jpg',
